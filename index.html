@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Petición</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Formulario</h1>
+  <form id="requestForm">
+    <label for="nombre" placeholder="Ejemplo: Mathías">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+
+    <label for="email" placeholder="ejemplo@email.com">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="texto" placeholder="Escribe tu Texto">Petición:</label>
+    <textarea id="texto" name="texto" required></textarea>
+
+    <button type="submit">Enviar</button>
+  </form>
+
+  <script src="jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
